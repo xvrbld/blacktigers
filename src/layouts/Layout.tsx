@@ -4,7 +4,10 @@ import Footer from "./footer/Footer";
 import Home from "pages/home/Home";
 import News from "pages/news/News";
 import Background from "pages/background/Background";
-import Enrollment from "pages/enrollment/Enrollment";
+import FootballTeam from "pages/football/team/FootballTeam";
+import FootballEnrollment from "pages/football/enrollment/FootballEnrollment";
+import FlagTeam from "pages/flag/team/FlagTeam";
+import FlagEnrollment from "pages/flag/enrollment/FlagEnrollment";
 import Sponsorship from "pages/sponsorship/Sponsorship";
 import Shop from "pages/shop/Shop";
 import Maintenance from "pages/maintenance/Maintenance";
@@ -31,7 +34,10 @@ function Layout() {
             <Route path="/" element={<Home />} />
             <Route path="/news" element={<News />} />
             <Route path="/background" element={<Background />} />
-            <Route path="/enrollment" element={<Enrollment />} />
+            <Route path="/football-team" element={<FootballTeam />} />
+            <Route path="/football-enrollment" element={<FootballEnrollment />} />
+            <Route path="/flag-team" element={<FlagTeam />} />
+            <Route path="/flag-enrollment" element={<FlagEnrollment />} />
             <Route path="/sponsorship" element={<Sponsorship />} />
             <Route path="/shop" element={<Shop />} />
             <Route path="*" element={<NotFound />} />
