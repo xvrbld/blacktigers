@@ -14,7 +14,7 @@ import Maintenance from "pages/maintenance/Maintenance";
 import NotFound from "pages/notfound/NotFound";
 
 function Layout() {
-    const isMaintenanceMode = true; // set this to false when maintenance is complete
+    const isMaintenanceMode = false; // set this to false when maintenance is complete
   
     if (isMaintenanceMode) {
       return (

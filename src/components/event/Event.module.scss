@@ -1,0 +1,75 @@
+.card {
+    width: 600px;
+    height: 300px;
+    background-color: var(--primary);
+    color: var(--secondary);
+    margin-top: 40px;
+    position: relative;
+
+    h1 {
+        position: absolute;
+        color: var(--primary);
+        top: -15%;
+        left: 50%;
+        translate: -50%;
+        white-space: nowrap;
+        font-size:large;
+        font-style: italic;
+        color: white;
+    }
+
+    .home {
+        max-width: 60px;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+    }
+
+    .visitor {
+        max-width: 60px;
+        position: absolute;
+        top: 50px;
+        right: 50px;
+    }
+
+    .eventTitle {
+        text-transform: uppercase;
+        margin-top: 25px;
+    }
+
+    .eventInfo {
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+
+        h3 {
+            background-color: white;
+            padding: 5px 10px;
+        }
+
+        .eventWhat {
+            margin-right: 40px;
+
+            .last {
+                margin-top: -10px;
+                font-weight: bold;
+            }
+        }
+
+        .eventWhen {
+            .last {
+                margin-top: -10px;
+                font-weight: bold;
+            }
+        }
+
+        .eventWhere {
+            margin-left: 40px;
+
+            .last {
+                margin-top: -10px;
+                font-weight: bold;
+            }
+        }
+    }
+}

@@ -1,5 +1,5 @@
 import styles from "./Banner.module.scss";
-import Hero from "assets/hero.jpg"
+import Hero from "assets/ferocious-tiger-nature.jpg"
 
 function Banner() {
 

@@ -1,8 +1,12 @@
 .standings {
 
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
+    .title {
+        white-space: pre;
+
+        .line {
+            display: block;
+        }
+    }
 
     th {
         font-weight: bold;

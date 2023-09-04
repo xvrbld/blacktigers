@@ -1,23 +1,23 @@
 [
     {
       "name": "Black Tigers",
-      "victories": 3,
+      "victories": 0,
       "draws": 0,
-      "defeats": 2,
-      "points": 20
+      "losses": 0,
+      "forfeits": 0
     },
     {
-      "name": "I Guerrieri",
-      "victories": 3,
-      "draws": 1,
-      "defeats": 1,
-      "points": 22
+      "name": "Bulldogs",
+      "victories": 0,
+      "draws": 0,
+      "losses": 0,
+      "forfeits": 0
     },
     {
       "name": "Rams",
       "victories": 0,
-      "draws": 1,
-      "defeats": 3,
-      "points": -3
+      "draws": 0,
+      "losses": 0,
+      "forfeits": 0
     }
   ]
